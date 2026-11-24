@@ -1,0 +1,292 @@
+{
+ "elapsed_s": 1.0356108000005406,
+ "result": {
+  "cases": [
+   {
+    "basis": "scope1",
+    "case": "C01",
+    "engine_kg": 15500.0,
+    "expected_kg": 15500.0,
+    "rel_error": 0.0,
+    "title": "TEST fuel A, 1000 gallon",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope1",
+    "case": "C02",
+    "engine_kg": 15500.000000000007,
+    "expected_kg": 15500.0,
+    "rel_error": 4.694166202698985e-16,
+    "title": "TEST fuel A, 3785.411784 litres (= 1000 US gallons)",
+    "tolerance": 1e-08,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope1",
+    "case": "C03",
+    "engine_kg": 544.9534,
+    "expected_kg": 544.9534,
+    "rel_error": 0.0,
+    "title": "EPA Hub 2025 natural gas, 10000 scf (per-scf factor)",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope1",
+    "case": "C04",
+    "engine_kg": 5311.449999999999,
+    "expected_kg": 5311.45,
+    "rel_error": 1.7123284635512491e-16,
+    "title": "EPA Hub 2025 natural gas, 1000 therm (per-mmBtu factor after conversion)",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope1",
+    "case": "C05",
+    "engine_kg": 5105.0,
+    "expected_kg": 5105.0,
+    "rel_error": 0.0,
+    "title": "EPA Hub 2025 diesel (mobile, CO2 only), 500 gallon",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope2_location",
+    "case": "C06",
+    "engine_kg": 103868.00340820753,
+    "expected_kg": 103868.0034082075,
+    "rel_error": 2.802001530957893e-16,
+    "title": "EPA Hub 2025 eGRID RFCW, 250000 kWh, location-based",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope2_market",
+    "case": "C06",
+    "engine_kg": 103868.00340820753,
+    "expected_kg": 103868.0034082075,
+    "rel_error": 2.802001530957893e-16,
+    "title": "EPA Hub 2025 eGRID RFCW, 250000 kWh, location-based",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope2_location",
+    "case": "C07",
+    "engine_kg": 114040.94628638252,
+    "expected_kg": 114040.9462863825,
+    "rel_error": 1.276025471747991e-16,
+    "title": "EPA Hub 2024 eGRID RFCW, 250000 kWh (earlier pinned edition)",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope2_market",
+    "case": "C07",
+    "engine_kg": 114040.94628638252,
+    "expected_kg": 114040.9462863825,
+    "rel_error": 1.276025471747991e-16,
+    "title": "EPA Hub 2024 eGRID RFCW, 250000 kWh (earlier pinned edition)",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope2_location",
+    "case": "C08",
+    "engine_kg": 103868.00340820753,
+    "expected_kg": 103868.0034082075,
+    "rel_error": 2.802001530957893e-16,
+    "title": "Market-based, 250000 kWh RFCW, 60% covered by a zero-emission instrument",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope2_market",
+    "case": "C08",
+    "engine_kg": 41547.20136328301,
+    "expected_kg": 41547.201363283,
+    "rel_error": 3.502501913697366e-16,
+    "title": "Market-based, 250000 kWh RFCW, 60% covered by a zero-emission instrument",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope2_location",
+    "case": "C09",
+    "engine_kg": 26559.249999999996,
+    "expected_kg": 26559.25,
+    "rel_error": 1.3697596156110255e-16,
+    "title": "EPA Hub 2025 purchased steam, 400 mmBtu",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope2_market",
+    "case": "C09",
+    "engine_kg": 26559.249999999996,
+    "expected_kg": 26559.25,
+    "rel_error": 1.3697596156110255e-16,
+    "title": "EPA Hub 2025 purchased steam, 400 mmBtu",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope1",
+    "case": "C10",
+    "engine_kg": 23088.0,
+    "expected_kg": 23088.0,
+    "rel_error": 0.0,
+    "title": "EPA Hub 2025 R-410A blend, 12 kg released",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope3",
+    "case": "C11",
+    "engine_kg": 22497.096,
+    "expected_kg": 22497.096,
+    "rel_error": 0.0,
+    "title": "EPA Hub 2025 truck freight, 120000 short ton-miles (Scope 3 cat. 4)",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope3",
+    "case": "C12",
+    "engine_kg": 1301.0330000000001,
+    "expected_kg": 1301.033,
+    "rel_error": 1.7476395713500893e-16,
+    "title": "EPA Hub 2025 medium-haul air, 16093.44 passenger-km (= 10000 passenger-miles; cat. 6)",
+    "tolerance": 1e-08,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope3",
+    "case": "C13",
+    "engine_kg": 2030.0,
+    "expected_kg": 2030.0,
+    "rel_error": 0.0,
+    "title": "EPA Hub 2025 mixed MSW landfilled, 7000 lb (cat. 5)",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope1",
+    "case": "C14",
+    "engine_kg": 115.56000000000002,
+    "expected_kg": 115.56,
+    "rel_error": 1.2297382065768434e-16,
+    "title": "EPA Hub 2025 wood and wood residuals, 100 mmBtu (biogenic CO2 outside the scope total)",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "biogenic",
+    "case": "C14",
+    "engine_kg": 9380.0,
+    "expected_kg": 9380.0,
+    "rel_error": 0.0,
+    "title": "EPA Hub 2025 wood and wood residuals, 100 mmBtu (biogenic CO2 outside the scope total) (biogenic CO2 memo)",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope3",
+    "case": "C15",
+    "engine_kg": 14875.0,
+    "expected_kg": 14875.0,
+    "rel_error": 0.0,
+    "title": "USEEIO v1.3 spend, NAICS 484121 truckload freight, 25000 USD (2022 USD)",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope3",
+    "case": "C16",
+    "engine_kg": 13685.0,
+    "expected_kg": 13685.0,
+    "rel_error": 0.0,
+    "title": "USEEIO v1.3 spend with explicit price-year deflator 0.92, 25000 USD",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   }
+  ],
+  "unit_safety": [
+   {
+    "check": "kWh + MWh raises UnitMismatchError",
+    "passed": true
+   },
+   {
+    "check": "kWh + gallon raises DimensionError",
+    "passed": true
+   },
+   {
+    "check": "bare number + Qty raises TypeError",
+    "passed": true
+   },
+   {
+    "check": "1 MWh converts to exactly 1000 kWh",
+    "passed": true
+   },
+   {
+    "check": "gallon to kWh conversion raises DimensionError",
+    "passed": true
+   },
+   {
+    "check": "unknown unit raises UnknownUnitError",
+    "passed": true
+   },
+   {
+    "check": "passenger-mile and vehicle-mile are not interchangeable",
+    "passed": true
+   },
+   {
+    "check": "electricity activity in gallons raises CalcError",
+    "passed": true
+   },
+   {
+    "check": "negative quantity raises RecordError",
+    "passed": true
+   },
+   {
+    "check": "spend in a different price year without deflator raises PriceYearError",
+    "passed": true
+   },
+   {
+    "check": "spend in a non-USD currency raises an error",
+    "passed": true
+   },
+   {
+    "check": "declared activity method with USD quantity raises CalcError",
+    "passed": true
+   },
+   {
+    "check": "factor with TEST_ id inside a published set is rejected",
+    "passed": true
+   },
+   {
+    "check": "changed factor file is detected as drift",
+    "passed": true
+   },
+   {
+    "check": "kWh and MWh inputs agree to 1e-12 relative (500 random quantities)",
+    "passed": true
+   },
+   {
+    "check": "MWh -> kWh -> MWh round trip is exact to 1e-12 (500 random quantities)",
+    "passed": true
+   }
+  ]
+ },
+ "spec": {
+  "exp": "e4",
+  "params": {
+   "n_random": 500
+  },
+  "unit_id": "e4/all"
+ },
+ "spec_hash": "c0e19e34d24c1efa7249853a0b28b932219516c845b7818e325108989b8a207d",
+ "unit_id": "e4/all"
+}

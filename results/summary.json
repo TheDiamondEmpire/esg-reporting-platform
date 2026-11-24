@@ -1,0 +1,1198 @@
+{
+ "e1": {
+  "_smoke": false,
+  "assumptions": {
+   "c4_rail": {
+    "activity_kg_per_unit": 0.021177300000000003,
+    "assumed_median_price": 0.05,
+    "breakeven_price_usd_per_unit": 0.04544484978540773,
+    "label": "Cat. 4 rail freight",
+    "price_unit": "USD per short ton-mile",
+    "spend_kg_per_usd": 0.466
+   },
+   "c4_truck": {
+    "activity_kg_per_unit": 0.1874758,
+    "assumed_median_price": 0.2,
+    "breakeven_price_usd_per_unit": 0.31508537815126053,
+    "label": "Cat. 4 truck freight",
+    "price_unit": "USD per short ton-mile",
+    "spend_kg_per_usd": 0.595
+   },
+   "c5_landfill": {
+    "activity_kg_per_unit": 580.0,
+    "assumed_median_price": 90.0,
+    "breakeven_price_usd_per_unit": 587.0445344129555,
+    "label": "Cat. 5 landfilled waste",
+    "price_unit": "USD per short ton",
+    "spend_kg_per_usd": 0.988
+   },
+   "c6_air": {
+    "activity_kg_per_unit": 0.1301033,
+    "assumed_median_price": 0.15,
+    "breakeven_price_usd_per_unit": 0.20202375776397516,
+    "label": "Cat. 6 air travel (medium haul)",
+    "price_unit": "USD per passenger-mile",
+    "spend_kg_per_usd": 0.644
+   }
+  },
+  "categories": {
+   "c4_rail": {
+    "0.25": {
+     "assumed_median_price": 0.0125,
+     "median_abs_rel_diff": 0.7264546774269126,
+     "median_abs_rel_diff_ci95": [
+      0.7208898928640584,
+      0.7303813460063183
+     ],
+     "median_rel_diff": -0.7264546774269126,
+     "median_rel_diff_ci95": [
+      -0.7304171714818576,
+      -0.7209710036650623
+     ],
+     "n": 2000,
+     "share_abs_diff_gt_30pct": 0.997,
+     "share_abs_diff_gt_30pct_ci95": [
+      0.9934700849260646,
+      0.9986243700763698
+     ]
+    },
+    "0.5": {
+     "assumed_median_price": 0.025,
+     "median_abs_rel_diff": 0.4584625527701187,
+     "median_abs_rel_diff_ci95": [
+      0.4494384739253629,
+      0.4702786885110096
+     ],
+     "median_rel_diff": -0.45731143437759014,
+     "median_rel_diff_ci95": [
+      -0.46835479815317005,
+      -0.44814257756653275
+     ],
+     "n": 2000,
+     "share_abs_diff_gt_30pct": 0.7705,
+     "share_abs_diff_gt_30pct_ci95": [
+      0.7515624295814481,
+      0.7884004478393939
+     ]
+    },
+    "1": {
+     "assumed_median_price": 0.05,
+     "median_abs_rel_diff": 0.24735010288673837,
+     "median_abs_rel_diff_ci95": [
+      0.23312600073864867,
+      0.26345002064174433
+     ],
+     "median_rel_diff": 0.10439353892622233,
+     "median_rel_diff_ci95": [
+      0.08745496060278676,
+      0.1255623770914162
+     ],
+     "n": 2000,
+     "share_abs_diff_gt_30pct": 0.4195,
+     "share_abs_diff_gt_30pct_ci95": [
+      0.39804731672824856,
+      0.44126132788403305
+     ]
+    },
+    "2": {
+     "assumed_median_price": 0.1,
+     "median_abs_rel_diff": 1.1822011506101522,
+     "median_abs_rel_diff_ci95": [
+      1.137026384154655,
+      1.2253349112912595
+     ],
+     "median_rel_diff": 1.1822011506101522,
+     "median_rel_diff_ci95": [
+      1.1385464781733998,
+      1.2251278003832717
+     ],
+     "n": 2000,
+     "share_abs_diff_gt_30pct": 0.9335,
+     "share_abs_diff_gt_30pct_ci95": [
+      0.9217283654429757,
+      0.9436095545641779
+     ]
+    },
+    "4": {
+     "assumed_median_price": 0.2,
+     "median_abs_rel_diff": 3.4170957842752188,
+     "median_abs_rel_diff_ci95": [
+      3.330201685208852,
+      3.4861523891028448
+     ],
+     "median_rel_diff": 3.4170957842752188,
+     "median_rel_diff_ci95": [
+      3.3217067479097633,
+      3.4841644344666336
+     ],
+     "n": 2000,
+     "share_abs_diff_gt_30pct": 0.9995,
+     "share_abs_diff_gt_30pct_ci95": [
+      0.9971731374967338,
+      0.9999117322692944
+     ]
+    }
+   },
+   "c4_truck": {
+    "0.25": {
+     "assumed_median_price": 0.05,
+     "median_abs_rel_diff": 0.8389198860953635,
+     "median_abs_rel_diff_ci95": [
+      0.8361472619030537,
+      0.8420209189163422
+     ],
+     "median_rel_diff": -0.8389198860953635,
+     "median_rel_diff_ci95": [
+      -0.8419669528687683,
+      -0.8361472619030537
+     ],
+     "n": 2000,
+     "share_abs_diff_gt_30pct": 1.0,
+     "share_abs_diff_gt_30pct_ci95": [
+      0.9980829527187469,
+      0.9999999999999998
+     ]
+    },
+    "0.5": {
+     "assumed_median_price": 0.1,
+     "median_abs_rel_diff": 0.6840789741968714,
+     "median_abs_rel_diff_ci95": [
+      0.677918787416083,
+      0.6907171588692381
+     ],
+     "median_rel_diff": -0.6840789741968714,
+     "median_rel_diff_ci95": [
+      -0.6905798286820173,
+      -0.6776574420064229
+     ],
+     "n": 2000,
+     "share_abs_diff_gt_30pct": 0.989,
+     "share_abs_diff_gt_30pct_ci95": [
+      0.9834005531702528,
+      0.9927245745886817
+     ]
+    },
+    "1": {
+     "assumed_median_price": 0.2,
+     "median_abs_rel_diff": 0.3628874889369828,
+     "median_abs_rel_diff_ci95": [
+      0.35067783322324586,
+      0.3739181752376024
+     ],
+     "median_rel_diff": -0.35686693327914776,
+     "median_rel_diff_ci95": [
+      -0.3677000267455135,
+      -0.3451903072510572
+     ],
+     "n": 2000,
+     "share_abs_diff_gt_30pct": 0.604,
+     "share_abs_diff_gt_30pct_ci95": [
+      0.582386454521585,
+      0.6252147996439142
+     ]
+    },
+    "2": {
+     "assumed_median_price": 0.4,
+     "median_abs_rel_diff": 0.2983571112126099,
+     "median_abs_rel_diff_ci95": [
+      0.2858906372632363,
+      0.31608736781234964
+     ],
+     "median_rel_diff": 0.26328639225206657,
+     "median_rel_diff_ci95": [
+      0.2437580894644042,
+      0.28278566289356144
+     ],
+     "n": 2000,
+     "share_abs_diff_gt_30pct": 0.499,
+     "share_abs_diff_gt_30pct_ci95": [
+      0.47710991149865634,
+      0.5208939225959061
+     ]
+    },
+    "4": {
+     "assumed_median_price": 0.8,
+     "median_abs_rel_diff": 1.5204187411671968,
+     "median_abs_rel_diff_ci95": [
+      1.471549611568354,
+      1.5741146851048413
+     ],
+     "median_rel_diff": 1.5204187411671968,
+     "median_rel_diff_ci95": [
+      1.4731603422621662,
+      1.5724532508505322
+     ],
+     "n": 2000,
+     "share_abs_diff_gt_30pct": 0.9705,
+     "share_abs_diff_gt_30pct_ci95": [
+      0.9621349108960856,
+      0.9770611476122554
+     ]
+    }
+   },
+   "c5_landfill": {
+    "0.25": {
+     "assumed_median_price": 22.5,
+     "median_abs_rel_diff": 0.9614558916021965,
+     "median_abs_rel_diff_ci95": [
+      0.9608174053751427,
+      0.9621094336499075
+     ],
+     "median_rel_diff": -0.9614558916021965,
+     "median_rel_diff_ci95": [
+      -0.9620951718188762,
+      -0.9608058135408725
+     ],
+     "n": 2000,
+     "share_abs_diff_gt_30pct": 1.0,
+     "share_abs_diff_gt_30pct_ci95": [
+      0.9980829527187469,
+      0.9999999999999998
+     ]
+    },
+    "0.5": {
+     "assumed_median_price": 45.0,
+     "median_abs_rel_diff": 0.9219324507581228,
+     "median_abs_rel_diff_ci95": [
+      0.9201155688145656,
+      0.9233152125907597
+     ],
+     "median_rel_diff": -0.9219324507581228,
+     "median_rel_diff_ci95": [
+      -0.9233303982226855,
+      -0.9200262900294526
+     ],
+     "n": 2000,
+     "share_abs_diff_gt_30pct": 1.0,
+     "share_abs_diff_gt_30pct_ci95": [
+      0.9980829527187469,
+      0.9999999999999998
+     ]
+    },
+    "1": {
+     "assumed_median_price": 90.0,
+     "median_abs_rel_diff": 0.8444436840939274,
+     "median_abs_rel_diff_ci95": [
+      0.8417810813909675,
+      0.8472962448741808
+     ],
+     "median_rel_diff": -0.8444436840939274,
+     "median_rel_diff_ci95": [
+      -0.8473170997950655,
+      -0.8417125482768364
+     ],
+     "n": 2000,
+     "share_abs_diff_gt_30pct": 1.0,
+     "share_abs_diff_gt_30pct_ci95": [
+      0.9980829527187469,
+      0.9999999999999998
+     ]
+    },
+    "2": {
+     "assumed_median_price": 180.0,
+     "median_abs_rel_diff": 0.6922470773432342,
+     "median_abs_rel_diff_ci95": [
+      0.6852970318202782,
+      0.6965780957043892
+     ],
+     "median_rel_diff": -0.6922470773432342,
+     "median_rel_diff_ci95": [
+      -0.6966279208128554,
+      -0.6853707536677895
+     ],
+     "n": 2000,
+     "share_abs_diff_gt_30pct": 0.99,
+     "share_abs_diff_gt_30pct_ci95": [
+      0.9846040615409247,
+      0.9935172321234472
+     ]
+    },
+    "4": {
+     "assumed_median_price": 360.0,
+     "median_abs_rel_diff": 0.40436263527941724,
+     "median_abs_rel_diff_ci95": [
+      0.395457270456071,
+      0.41941451712481853
+     ],
+     "median_rel_diff": -0.4018897406948292,
+     "median_rel_diff_ci95": [
+      -0.41601360168846824,
+      -0.39079075725152335
+     ],
+     "n": 2000,
+     "share_abs_diff_gt_30pct": 0.6775,
+     "share_abs_diff_gt_30pct_ci95": [
+      0.6566907564469646,
+      0.6976286917681906
+     ]
+    }
+   },
+   "c6_air": {
+    "0.25": {
+     "assumed_median_price": 0.0375,
+     "median_abs_rel_diff": 0.8169957362097334,
+     "median_abs_rel_diff_ci95": [
+      0.812941161305152,
+      0.8201751438389808
+     ],
+     "median_rel_diff": -0.8169957362097334,
+     "median_rel_diff_ci95": [
+      -0.8202611966140735,
+      -0.8129791476383721
+     ],
+     "n": 2000,
+     "share_abs_diff_gt_30pct": 1.0,
+     "share_abs_diff_gt_30pct_ci95": [
+      0.9980829527187469,
+      0.9999999999999998
+     ]
+    },
+    "0.5": {
+     "assumed_median_price": 0.075,
+     "median_abs_rel_diff": 0.6286989492303545,
+     "median_abs_rel_diff_ci95": [
+      0.6197608664191065,
+      0.6341453591961204
+     ],
+     "median_rel_diff": -0.6286989492303545,
+     "median_rel_diff_ci95": [
+      -0.6343237710697578,
+      -0.6194688145480227
+     ],
+     "n": 2000,
+     "share_abs_diff_gt_30pct": 0.965,
+     "share_abs_diff_gt_30pct_ci95": [
+      0.9560127151847282,
+      0.9722044308437063
+     ]
+    },
+    "1": {
+     "assumed_median_price": 0.15,
+     "median_abs_rel_diff": 0.2923821129687929,
+     "median_abs_rel_diff_ci95": [
+      0.28056776913615633,
+      0.3009064878362393
+     ],
+     "median_rel_diff": -0.2504960609162574,
+     "median_rel_diff_ci95": [
+      -0.26259347375380804,
+      -0.23405803400494574
+     ],
+     "n": 2000,
+     "share_abs_diff_gt_30pct": 0.4795,
+     "share_abs_diff_gt_30pct_ci95": [
+      0.4576656229232075,
+      0.5014129760153236
+     ]
+    },
+    "2": {
+     "assumed_median_price": 0.3,
+     "median_abs_rel_diff": 0.4665743890730864,
+     "median_abs_rel_diff_ci95": [
+      0.4395288536445016,
+      0.48919985865530424
+     ],
+     "median_rel_diff": 0.4659938042991314,
+     "median_rel_diff_ci95": [
+      0.4376297980912007,
+      0.4872801290619501
+     ],
+     "n": 2000,
+     "share_abs_diff_gt_30pct": 0.6515,
+     "share_abs_diff_gt_30pct_ci95": [
+      0.6303446296905924,
+      0.672074504983188
+     ]
+    },
+    "4": {
+     "assumed_median_price": 0.6,
+     "median_abs_rel_diff": 1.9494479091366173,
+     "median_abs_rel_diff_ci95": [
+      1.8832660473474339,
+      2.0047885905624225
+     ],
+     "median_rel_diff": 1.9494479091366173,
+     "median_rel_diff_ci95": [
+      1.881402433997697,
+      2.004261091853296
+     ],
+     "n": 2000,
+     "share_abs_diff_gt_30pct": 0.9905,
+     "share_abs_diff_gt_30pct_ci95": [
+      0.9852096168457007,
+      0.9939097597713902
+     ]
+    }
+   }
+  },
+  "h1_at_assumed_prices": {
+   "categories_exceeding": [
+    "c4_truck",
+    "c5_landfill"
+   ],
+   "n_categories": 4,
+   "n_exceeding": 2,
+   "rule": "supported iff the median |relative difference| exceeds 30% in at least half of the categories, at the assumed median prices (multiplier 1)",
+   "supported": true
+  },
+  "price_sigma": 0.35,
+  "threshold": 0.3
+ },
+ "e2": {
+  "A_well_specified": {
+   "h2_rule": "supported iff the Wilson 95% CI of the 90% interval's coverage lies entirely within [0.85, 0.95]",
+   "h2_supported": true,
+   "levels": {
+    "0.5": {
+     "ci95": [
+      0.48602235996108767,
+      0.5478475302504034
+     ],
+     "coverage": 0.517,
+     "hits": 517
+    },
+    "0.8": {
+     "ci95": [
+      0.7907901792135869,
+      0.8387913094235423
+     ],
+     "coverage": 0.816,
+     "hits": 816
+    },
+    "0.9": {
+     "ci95": [
+      0.8744646434108284,
+      0.9125122173855832
+     ],
+     "coverage": 0.895,
+     "hits": 895
+    },
+    "0.95": {
+     "ci95": [
+      0.9302078451539475,
+      0.9583786862769372
+     ],
+     "coverage": 0.946,
+     "hits": 946
+    }
+   },
+   "mean_lines": 17.128,
+   "median_rel_width_90": 0.145462993509622,
+   "miss_above_95pct_tail": 0.056,
+   "miss_below_5pct_tail": 0.049,
+   "n_orgs": 1000,
+   "note": "generator equals the engine's assumptions (confirmatory)"
+  },
+  "B_activity_errors_2x": {
+   "levels": {
+    "0.5": {
+     "ci95": [
+      0.4055679635294317,
+      0.46692186155671933
+     ],
+     "coverage": 0.436,
+     "hits": 436
+    },
+    "0.8": {
+     "ci95": [
+      0.7119317744345645,
+      0.766231381492369
+     ],
+     "coverage": 0.74,
+     "hits": 740
+    },
+    "0.9": {
+     "ci95": [
+      0.8371133085163773,
+      0.8801314253740229
+     ],
+     "coverage": 0.86,
+     "hits": 860
+    },
+    "0.95": {
+     "ci95": [
+      0.9026250851159918,
+      0.9361527842391708
+     ],
+     "coverage": 0.921,
+     "hits": 921
+    }
+   },
+   "mean_lines": 17.128,
+   "median_rel_width_90": 0.14533750641134913,
+   "miss_above_95pct_tail": 0.055,
+   "miss_below_5pct_tail": 0.085,
+   "n_orgs": 1000,
+   "note": "true activity errors have twice the assumed log-sigma"
+  },
+  "C_underreporting_bias": {
+   "levels": {
+    "0.5": {
+     "ci95": [
+      2.168404344971009e-19,
+      0.0038267584855551234
+     ],
+     "coverage": 0.0,
+     "hits": 0
+    },
+    "0.8": {
+     "ci95": [
+      0.000548643588120728,
+      0.007262807863492177
+     ],
+     "coverage": 0.002,
+     "hits": 2
+    },
+    "0.9": {
+     "ci95": [
+      0.005440754445529249,
+      0.018309468870314774
+     ],
+     "coverage": 0.01,
+     "hits": 10
+    },
+    "0.95": {
+     "ci95": [
+      0.014572707764791058,
+      0.03308567334739963
+     ],
+     "coverage": 0.022,
+     "hits": 22
+    }
+   },
+   "mean_lines": 17.128,
+   "median_rel_width_90": 0.1446381996534512,
+   "miss_above_95pct_tail": 0.99,
+   "miss_below_5pct_tail": 0.0,
+   "n_orgs": 1000,
+   "note": "reported = 0.8 x true on every line (systematic under-reporting the engine does not know)"
+  },
+  "D_heavy_tails": {
+   "levels": {
+    "0.5": {
+     "ci95": [
+      0.4730552793350446,
+      0.5349141065970708
+     ],
+     "coverage": 0.504,
+     "hits": 504
+    },
+    "0.8": {
+     "ci95": [
+      0.776166200305855,
+      0.8255224375688698
+     ],
+     "coverage": 0.802,
+     "hits": 802
+    },
+    "0.9": {
+     "ci95": [
+      0.8733895811764342,
+      0.9115949331369485
+     ],
+     "coverage": 0.894,
+     "hits": 894
+    },
+    "0.95": {
+     "ci95": [
+      0.936933911349866,
+      0.963606698979192
+     ],
+     "coverage": 0.952,
+     "hits": 952
+    }
+   },
+   "mean_lines": 17.128,
+   "median_rel_width_90": 0.14557621187316305,
+   "miss_above_95pct_tail": 0.053,
+   "miss_below_5pct_tail": 0.053,
+   "n_orgs": 1000,
+   "note": "activity errors are Student-t(3) in log space, scaled to the same 95% half-width"
+  },
+  "E_factor_errors_independent": {
+   "levels": {
+    "0.5": {
+     "ci95": [
+      0.4690696003681042,
+      0.5309303996318958
+     ],
+     "coverage": 0.5,
+     "hits": 500
+    },
+    "0.8": {
+     "ci95": [
+      0.7543184071059555,
+      0.8055309546251624
+     ],
+     "coverage": 0.781,
+     "hits": 781
+    },
+    "0.9": {
+     "ci95": [
+      0.8723150421383737,
+      0.91067712569198
+     ],
+     "coverage": 0.893,
+     "hits": 893
+    },
+    "0.95": {
+     "ci95": [
+      0.9235289252086434,
+      0.953103527324068
+     ],
+     "coverage": 0.94,
+     "hits": 940
+    }
+   },
+   "mean_lines": 17.128,
+   "median_rel_width_90": 0.14536884406074302,
+   "miss_above_95pct_tail": 0.052,
+   "miss_below_5pct_tail": 0.055,
+   "n_orgs": 1000,
+   "note": "true factor errors are independent per line; the engine assumes one shared draw per factor"
+  },
+  "G_factor_errors_2x": {
+   "levels": {
+    "0.5": {
+     "ci95": [
+      0.24243819128491245,
+      0.297329771135414
+     ],
+     "coverage": 0.269,
+     "hits": 269
+    },
+    "0.8": {
+     "ci95": [
+      0.43130413072430196,
+      0.4929867029206003
+     ],
+     "coverage": 0.462,
+     "hits": 462
+    },
+    "0.9": {
+     "ci95": [
+      0.5541928113038582,
+      0.6151566397535974
+     ],
+     "coverage": 0.585,
+     "hits": 585
+    },
+    "0.95": {
+     "ci95": [
+      0.6484067877958661,
+      0.7062308861832765
+     ],
+     "coverage": 0.678,
+     "hits": 678
+    }
+   },
+   "mean_lines": 17.128,
+   "median_rel_width_90": 0.1449393969922797,
+   "miss_above_95pct_tail": 0.242,
+   "miss_below_5pct_tail": 0.173,
+   "n_orgs": 1000,
+   "note": "true factor errors have twice the assumed log-sigma"
+  },
+  "_smoke": false
+ },
+ "e3": {
+  "_smoke": false,
+  "budgets": {
+   "1": {
+    "mean_reduction": {
+     "greedy": 0.365924835567867,
+     "random": 0.020065891190807317,
+     "top_relative": 0.009525342070096983,
+     "top_variance": 0.3658216992864334
+    },
+    "mean_reduction_ci95": {
+     "greedy": [
+      0.3495380866037254,
+      0.3824279021782412
+     ],
+     "random": [
+      0.018373805038127106,
+      0.021932631580372352
+     ],
+     "top_relative": [
+      0.004662836629030957,
+      0.015291816657114467
+     ],
+     "top_variance": [
+      0.3498248593251678,
+      0.38250831915907446
+     ]
+    },
+    "top_relative_minus_random": {
+     "cliffs_delta": -0.7146444444444444,
+     "holm_p": 1.0,
+     "mean_diff": -0.010540549120710336,
+     "mean_diff_ci95": [
+      -0.01571140935982264,
+      -0.003952925941384977
+     ],
+     "median_diff": -0.015279589114958567,
+     "share_orgs_better": 0.12666666666666668,
+     "wilcoxon_p_one_sided": 1.0
+    },
+    "top_variance_minus_random": {
+     "cliffs_delta": 1.0,
+     "holm_p": 1.2167119699382873e-50,
+     "mean_diff": 0.34575580809562606,
+     "mean_diff_ci95": [
+      0.33044182515424514,
+      0.3617893397529467
+     ],
+     "median_diff": 0.32470319928654634,
+     "share_orgs_better": 1.0,
+     "wilcoxon_p_one_sided": 3.0417799248457183e-51
+    }
+   },
+   "2": {
+    "mean_reduction": {
+     "greedy": 0.5060409033813041,
+     "random": 0.03833465905456552,
+     "top_relative": 0.017259239559218226,
+     "top_variance": 0.5057473348511821
+    },
+    "mean_reduction_ci95": {
+     "greedy": [
+      0.4927007969511361,
+      0.5197791960187504
+     ],
+     "random": [
+      0.035477485295638087,
+      0.04130560703031113
+     ],
+     "top_relative": [
+      0.011549716440506804,
+      0.024433202018302003
+     ],
+     "top_variance": [
+      0.4929487434748676,
+      0.5187401587828322
+     ]
+    },
+    "top_relative_minus_random": {
+     "cliffs_delta": -0.7293777777777778,
+     "holm_p": 1.0,
+     "mean_diff": -0.021075419495347292,
+     "mean_diff_ci95": [
+      -0.02750799494264765,
+      -0.013477582151733851
+     ],
+     "median_diff": -0.028713734748096992,
+     "share_orgs_better": 0.12666666666666668,
+     "wilcoxon_p_one_sided": 1.0
+    },
+    "top_variance_minus_random": {
+     "cliffs_delta": 1.0,
+     "holm_p": 1.2167119699382873e-50,
+     "mean_diff": 0.46741267579661666,
+     "mean_diff_ci95": [
+      0.45452926630038565,
+      0.4811370698503996
+     ],
+     "median_diff": 0.47507533669890323,
+     "share_orgs_better": 1.0,
+     "wilcoxon_p_one_sided": 3.0417799248457183e-51
+    }
+   },
+   "3": {
+    "mean_reduction": {
+     "greedy": 0.581421901764717,
+     "random": 0.05910040971513657,
+     "top_relative": 0.023126014368928745,
+     "top_variance": 0.5806398898030246
+    },
+    "mean_reduction_ci95": {
+     "greedy": [
+      0.5703099147611231,
+      0.5923399977217838
+     ],
+     "random": [
+      0.05587414606469907,
+      0.0625446227088968
+     ],
+     "top_relative": [
+      0.016440475265709093,
+      0.03105417904630631
+     ],
+     "top_variance": [
+      0.5693322046744094,
+      0.5916830095551934
+     ]
+    },
+    "top_relative_minus_random": {
+     "cliffs_delta": -0.7598666666666667,
+     "holm_p": 1.0,
+     "mean_diff": -0.03597439534620782,
+     "mean_diff_ci95": [
+      -0.04365931427296069,
+      -0.027057882325202683
+     ],
+     "median_diff": -0.045130514009377606,
+     "share_orgs_better": 0.12,
+     "wilcoxon_p_one_sided": 1.0
+    },
+    "top_variance_minus_random": {
+     "cliffs_delta": 1.0,
+     "holm_p": 1.2167119699382873e-50,
+     "mean_diff": 0.521539480087888,
+     "mean_diff_ci95": [
+      0.5108027667151593,
+      0.532682726670738
+     ],
+     "median_diff": 0.5348581563441681,
+     "share_orgs_better": 1.0,
+     "wilcoxon_p_one_sided": 3.0417799248457183e-51
+    }
+   },
+   "5": {
+    "mean_reduction": {
+     "greedy": 0.6559114080090245,
+     "random": 0.09837968863843952,
+     "top_relative": 0.03945573794557682,
+     "top_variance": 0.6548128139699816
+    },
+    "mean_reduction_ci95": {
+     "greedy": [
+      0.649063926259546,
+      0.6627205114474195
+     ],
+     "random": [
+      0.09381386698921113,
+      0.10313607051073012
+     ],
+     "top_relative": [
+      0.030678465535855976,
+      0.04980117793075271
+     ],
+     "top_variance": [
+      0.6480226297192563,
+      0.661433376457317
+     ]
+    },
+    "top_relative_minus_random": {
+     "cliffs_delta": -0.7661777777777777,
+     "holm_p": 1.0,
+     "mean_diff": -0.058923950692862694,
+     "mean_diff_ci95": [
+      -0.06969102213177086,
+      -0.048582616810067494
+     ],
+     "median_diff": -0.06986752085899028,
+     "share_orgs_better": 0.10666666666666667,
+     "wilcoxon_p_one_sided": 1.0
+    },
+    "top_variance_minus_random": {
+     "cliffs_delta": 1.0,
+     "holm_p": 1.2167119699382873e-50,
+     "mean_diff": 0.5564331253315421,
+     "mean_diff_ci95": [
+      0.5482297049378446,
+      0.5637912442271755
+     ],
+     "median_diff": 0.5666342344309432,
+     "share_orgs_better": 1.0,
+     "wilcoxon_p_one_sided": 3.0417799248457183e-51
+    }
+   }
+  },
+  "h3_rule": "supported iff, for every budget k, top_variance exceeds random with Holm-adjusted one-sided Wilcoxon p < 0.05 and a positive mean difference",
+  "h3_top_variance_supported": true,
+  "median_baseline_rel_width_90": 0.1472398284261534,
+  "median_n_inputs": 30.0,
+  "n_orgs": 300,
+  "shrink": 0.25
+ },
+ "e4": {
+  "_smoke": false,
+  "all_within_tolerance": true,
+  "cases": [
+   {
+    "basis": "scope1",
+    "case": "C01",
+    "engine_kg": 15500.0,
+    "expected_kg": 15500.0,
+    "rel_error": 0.0,
+    "title": "TEST fuel A, 1000 gallon",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope1",
+    "case": "C02",
+    "engine_kg": 15500.000000000007,
+    "expected_kg": 15500.0,
+    "rel_error": 4.694166202698985e-16,
+    "title": "TEST fuel A, 3785.411784 litres (= 1000 US gallons)",
+    "tolerance": 1e-08,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope1",
+    "case": "C03",
+    "engine_kg": 544.9534,
+    "expected_kg": 544.9534,
+    "rel_error": 0.0,
+    "title": "EPA Hub 2025 natural gas, 10000 scf (per-scf factor)",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope1",
+    "case": "C04",
+    "engine_kg": 5311.449999999999,
+    "expected_kg": 5311.45,
+    "rel_error": 1.7123284635512491e-16,
+    "title": "EPA Hub 2025 natural gas, 1000 therm (per-mmBtu factor after conversion)",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope1",
+    "case": "C05",
+    "engine_kg": 5105.0,
+    "expected_kg": 5105.0,
+    "rel_error": 0.0,
+    "title": "EPA Hub 2025 diesel (mobile, CO2 only), 500 gallon",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope2_location",
+    "case": "C06",
+    "engine_kg": 103868.00340820753,
+    "expected_kg": 103868.0034082075,
+    "rel_error": 2.802001530957893e-16,
+    "title": "EPA Hub 2025 eGRID RFCW, 250000 kWh, location-based",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope2_market",
+    "case": "C06",
+    "engine_kg": 103868.00340820753,
+    "expected_kg": 103868.0034082075,
+    "rel_error": 2.802001530957893e-16,
+    "title": "EPA Hub 2025 eGRID RFCW, 250000 kWh, location-based",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope2_location",
+    "case": "C07",
+    "engine_kg": 114040.94628638252,
+    "expected_kg": 114040.9462863825,
+    "rel_error": 1.276025471747991e-16,
+    "title": "EPA Hub 2024 eGRID RFCW, 250000 kWh (earlier pinned edition)",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope2_market",
+    "case": "C07",
+    "engine_kg": 114040.94628638252,
+    "expected_kg": 114040.9462863825,
+    "rel_error": 1.276025471747991e-16,
+    "title": "EPA Hub 2024 eGRID RFCW, 250000 kWh (earlier pinned edition)",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope2_location",
+    "case": "C08",
+    "engine_kg": 103868.00340820753,
+    "expected_kg": 103868.0034082075,
+    "rel_error": 2.802001530957893e-16,
+    "title": "Market-based, 250000 kWh RFCW, 60% covered by a zero-emission instrument",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope2_market",
+    "case": "C08",
+    "engine_kg": 41547.20136328301,
+    "expected_kg": 41547.201363283,
+    "rel_error": 3.502501913697366e-16,
+    "title": "Market-based, 250000 kWh RFCW, 60% covered by a zero-emission instrument",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope2_location",
+    "case": "C09",
+    "engine_kg": 26559.249999999996,
+    "expected_kg": 26559.25,
+    "rel_error": 1.3697596156110255e-16,
+    "title": "EPA Hub 2025 purchased steam, 400 mmBtu",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope2_market",
+    "case": "C09",
+    "engine_kg": 26559.249999999996,
+    "expected_kg": 26559.25,
+    "rel_error": 1.3697596156110255e-16,
+    "title": "EPA Hub 2025 purchased steam, 400 mmBtu",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope1",
+    "case": "C10",
+    "engine_kg": 23088.0,
+    "expected_kg": 23088.0,
+    "rel_error": 0.0,
+    "title": "EPA Hub 2025 R-410A blend, 12 kg released",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope3",
+    "case": "C11",
+    "engine_kg": 22497.096,
+    "expected_kg": 22497.096,
+    "rel_error": 0.0,
+    "title": "EPA Hub 2025 truck freight, 120000 short ton-miles (Scope 3 cat. 4)",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope3",
+    "case": "C12",
+    "engine_kg": 1301.0330000000001,
+    "expected_kg": 1301.033,
+    "rel_error": 1.7476395713500893e-16,
+    "title": "EPA Hub 2025 medium-haul air, 16093.44 passenger-km (= 10000 passenger-miles; cat. 6)",
+    "tolerance": 1e-08,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope3",
+    "case": "C13",
+    "engine_kg": 2030.0,
+    "expected_kg": 2030.0,
+    "rel_error": 0.0,
+    "title": "EPA Hub 2025 mixed MSW landfilled, 7000 lb (cat. 5)",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope1",
+    "case": "C14",
+    "engine_kg": 115.56000000000002,
+    "expected_kg": 115.56,
+    "rel_error": 1.2297382065768434e-16,
+    "title": "EPA Hub 2025 wood and wood residuals, 100 mmBtu (biogenic CO2 outside the scope total)",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "biogenic",
+    "case": "C14",
+    "engine_kg": 9380.0,
+    "expected_kg": 9380.0,
+    "rel_error": 0.0,
+    "title": "EPA Hub 2025 wood and wood residuals, 100 mmBtu (biogenic CO2 outside the scope total) (biogenic CO2 memo)",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope3",
+    "case": "C15",
+    "engine_kg": 14875.0,
+    "expected_kg": 14875.0,
+    "rel_error": 0.0,
+    "title": "USEEIO v1.3 spend, NAICS 484121 truckload freight, 25000 USD (2022 USD)",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   },
+   {
+    "basis": "scope3",
+    "case": "C16",
+    "engine_kg": 13685.0,
+    "expected_kg": 13685.0,
+    "rel_error": 0.0,
+    "title": "USEEIO v1.3 spend with explicit price-year deflator 0.92, 25000 USD",
+    "tolerance": 1e-09,
+    "within_tolerance": true
+   }
+  ],
+  "max_rel_error": 4.694166202698985e-16,
+  "median_rel_error": 1.276025471747991e-16,
+  "n_comparisons": 21,
+  "n_within_tolerance": 21,
+  "note": "Deterministic: no sampling, so no confidence interval. Expected values are hand-derived by the author, not published examples.",
+  "unit_safety": [
+   {
+    "check": "kWh + MWh raises UnitMismatchError",
+    "passed": true
+   },
+   {
+    "check": "kWh + gallon raises DimensionError",
+    "passed": true
+   },
+   {
+    "check": "bare number + Qty raises TypeError",
+    "passed": true
+   },
+   {
+    "check": "1 MWh converts to exactly 1000 kWh",
+    "passed": true
+   },
+   {
+    "check": "gallon to kWh conversion raises DimensionError",
+    "passed": true
+   },
+   {
+    "check": "unknown unit raises UnknownUnitError",
+    "passed": true
+   },
+   {
+    "check": "passenger-mile and vehicle-mile are not interchangeable",
+    "passed": true
+   },
+   {
+    "check": "electricity activity in gallons raises CalcError",
+    "passed": true
+   },
+   {
+    "check": "negative quantity raises RecordError",
+    "passed": true
+   },
+   {
+    "check": "spend in a different price year without deflator raises PriceYearError",
+    "passed": true
+   },
+   {
+    "check": "spend in a non-USD currency raises an error",
+    "passed": true
+   },
+   {
+    "check": "declared activity method with USD quantity raises CalcError",
+    "passed": true
+   },
+   {
+    "check": "factor with TEST_ id inside a published set is rejected",
+    "passed": true
+   },
+   {
+    "check": "changed factor file is detected as drift",
+    "passed": true
+   },
+   {
+    "check": "kWh and MWh inputs agree to 1e-12 relative (500 random quantities)",
+    "passed": true
+   },
+   {
+    "check": "MWh -> kWh -> MWh round trip is exact to 1e-12 (500 random quantities)",
+    "passed": true
+   }
+  ],
+  "unit_safety_n": 16,
+  "unit_safety_passed": 16
+ }
+}

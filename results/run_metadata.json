@@ -1,0 +1,39 @@
+{
+ "code_version_sha256": "0a1f05ce8f1ad1f4305d1aa5ab8cd4d243d78bf1757540bbd8a1970764ea5451",
+ "command": "uv run python -m experiments.run_all",
+ "cpu_load_percent_after": 100.0,
+ "cpu_load_percent_before": 100.0,
+ "experiments": [
+  "e1",
+  "e2",
+  "e3",
+  "e4"
+ ],
+ "finished_utc": "2026-10-23T16:17:08+00:00",
+ "hardware": {
+  "cpu_model": "AMD EPYC 7543P 32-Core Processor",
+  "logical_cores": 8,
+  "machine": "AMD64",
+  "numpy": "2.5.4",
+  "os": "Windows 11",
+  "python": "3.12.13",
+  "scipy": "1.18.1"
+ },
+ "invocation_id": "1bf793ec-2bf0-4e09-972e-9b6ea9ab23fb",
+ "lockfile_sha256": "4169c63889bc7509741d0f710a9b2f72e752aeadf6b2d071aaf39531895d52ff",
+ "master_seed": 20261023,
+ "notes": "At most 2 worker processes; one BLAS thread each. The machine was shared with other builds, so wall-clock values are contaminated by contention and are not performance claims.",
+ "single_uninterrupted_invocation": true,
+ "smoke": false,
+ "stale_units_recomputed": [],
+ "started_utc": "2026-10-23T16:12:41+00:00",
+ "unit_elapsed_seconds_sum": 485.6,
+ "units_executed_this_invocation": 93,
+ "units_resumed_from_earlier_invocation": 0,
+ "units_total": 93,
+ "wall_seconds_this_invocation": 259.7,
+ "worker_pids_still_alive_after_run": [],
+ "worker_pool_crashes": [],
+ "worker_processes_seen": 2,
+ "workers": 2
+}
